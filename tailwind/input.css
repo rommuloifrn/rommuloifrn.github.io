@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .under-link {
+        @apply font-bold mr-3 text-slate-400 text-xl salmonable;
+    }
+    .salmonable {
+        @apply hover:text-red-400;
+    }
+    .toolimg {
+        @apply h-28;
+    }
+    .toolimg-hor {
+        @apply h-12 my-auto;
+    }
+    .text-head {
+        @apply text-4xl font-semibold;
+    }
+}
