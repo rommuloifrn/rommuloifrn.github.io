@@ -9,13 +9,73 @@
     .salmonable {
         @apply hover:text-red-400;
     }
-    .toolimg {
-        @apply h-28;
+    .salmon {
+        @apply text-red-400;
     }
-    .toolimg-hor {
-        @apply h-12 my-auto;
+
+
+    /* links abaixo da chamada principal */
+
+    .anc-major {
+        @apply flex flex-row mr-5
+        hover:top-3
+        hover:-translate-y-2
+        transition
+        items-center
+        ;
     }
-    .text-head {
-        @apply text-4xl font-semibold;
+
+    .anc-icon {
+        @apply ;
+    }
+
+    .anc-text {
+        @apply ml-2 text-2xl font-semibold text-slate-400;
+    }
+
+
+
+
+    .skillimg {
+        @apply mr-3 rounded;
+    }
+
+    .skillrllyimg {
+        @apply h-32 mr-5;
+    }
+
+    .subcall {
+        @apply font-semibold mt-16 mb-5 text-slate-400 select-none;
+    }
+
+    .apaga {
+        @apply text-slate-500;
+    }
+
+    /* Parte de projetos */
+
+    .projectwindow {
+        @apply flex flex-col w-full justify-evenly mb-16 sm:flex-row;
+    }
+    .projectimg {
+        @apply h-52 sm:h-72;
+    }
+    .projecttitle {
+        @apply text-4xl font-bold mb-2 sm:mt-0 mt-8;
+    }
+    .projectbadges {
+        @apply mb-1 flex text-wrap;
+    }
+    .projecttext {
+        @apply text-slate-400;
+    }
+
+    /* links nos projetos */
+    .plinktext {
+        @apply font-semibold ml-1 text-xl;
+    }
+
+    .plinkimg {
+        @apply h-4;
     }
 }
