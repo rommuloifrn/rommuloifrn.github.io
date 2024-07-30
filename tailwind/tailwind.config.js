@@ -3,7 +3,7 @@ module.exports = {
   content: ['../**/*.{html, js}', '../index.html'],
   theme: {
     fontFamily: {
-      'serif': 'Averia Serif Libre'
+      'serif': 'Noto Serif'
     },
     extend: {
     },

@@ -4,6 +4,6 @@
 
 @layer components {
     .link {
-        @apply cursor-pointer hover:text-red-400 transition;
+        @apply cursor-pointer hover:underline transition;
     }
 }
