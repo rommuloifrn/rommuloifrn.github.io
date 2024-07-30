@@ -8,7 +8,8 @@ module.exports = {
         'serif': 'Aria Serif Libre'
       },
       colors:{
-        "darkin":"#1F1F25"
+        "darkin":"#1F1F25",
+        "roxin":"#62548B"
       }
     },
   },
