@@ -2,7 +2,11 @@
 module.exports = {
   content: ['../**/*.{html, js}', '../index.html'],
   theme: {
-    extend: {},
+    fontFamily: {
+      'serif': 'Averia Serif Libre'
+    },
+    extend: {
+    },
   },
   plugins: [],
 }
