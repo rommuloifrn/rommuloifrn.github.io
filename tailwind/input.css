@@ -3,7 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+    .project {
+        @apply mb-8;
+    }
+
     .link {
         @apply cursor-pointer hover:text-red-400 transition;
+    }
+    .project-title {
+        @apply text-xl;
+    }
+    .ball {
+        @apply h-2 w-2 rounded-full mr-1;
     }
 }
