@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         'sans': 'Inter',
-        'serif': 'Aria Serif Libre'
+        'serif': 'Averia Serif Libre'
       },
       colors:{
         "darkin":"#1F1F25",
