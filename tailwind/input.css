@@ -27,7 +27,7 @@
         @apply cursor-pointer hover:text-red-400 transition;
     }
     .project-title {
-        @apply text-xl;
+        @apply text-xl group-hover:underline;
     }
     .ball {
         @apply h-2 w-2 rounded-full mr-1;
