@@ -3,79 +3,37 @@
 @tailwind utilities;
 
 @layer components {
-    .under-link {
-        @apply font-bold mr-3 text-slate-400 text-xl salmonable;
-    }
-    .salmonable {
-        @apply hover:text-red-400;
-    }
-    .salmon {
-        @apply text-red-400;
+    .contact-button {
+        @apply px-3 py-2 rounded-lg bg-slate-200 text-darkin flex items-center mr-2 hover:bg-red-500 hover:text-white transition;
     }
 
-
-    /* links abaixo da chamada principal */
-
-    .anc-major {
-        @apply flex flex-row mr-5
-        hover:top-3
-        hover:-translate-y-2
-        transition
-        items-center
-        ;
+    .project {
+        @apply mb-8 flex w-full;
     }
 
-    .anc-icon {
-        @apply ;
+    .project-image-container {
+        @apply w-[9em] h-24 flex justify-center mr-5 border-b-2 border-r-2 border-indigo-900 /*border-purple-500*/ bg-gradient-to-br from-slate-500 to-slate-800 text-slate-500;
     }
 
-    .anc-text {
-        @apply ml-2 text-2xl font-semibold text-slate-400;
+    .project-image {
+        @apply block object-cover;
     }
 
-
-
-
-    .skillimg {
-        @apply mr-3 rounded;
+    .project-image-container-symbol {
+        @apply project-image-container border-none bg-none;
     }
 
-    .skillrllyimg {
-        @apply h-32 mr-5;
+    .project-text-container {
+        @apply w-4/5
     }
 
-    .subcall {
-        @apply font-semibold mt-16 mb-5 text-slate-400 select-none;
+    .link {
+        @apply cursor-pointer hover:text-red-400 transition;
     }
-
-    .apaga {
-        @apply text-slate-500;
+    .project-title {
+        @apply text-xl group-hover:underline;
     }
-
-    /* Parte de projetos */
-
-    .projectwindow {
-        @apply flex flex-col w-full justify-evenly mb-16 sm:flex-row;
-    }
-    .projectimg {
-        @apply h-52 sm:h-72;
-    }
-    .projecttitle {
-        @apply text-4xl font-bold mb-2 sm:mt-0 mt-8;
-    }
-    .projectbadges {
-        @apply mb-1 flex text-wrap;
-    }
-    .projecttext {
-        @apply text-slate-400;
-    }
-
-    /* links nos projetos */
-    .plinktext {
-        @apply font-semibold ml-1 text-xl;
-    }
-
-    .plinkimg {
-        @apply h-4;
+    .ball {
+        @apply h-2 w-2 rounded-full mr-1;
     }
 }
