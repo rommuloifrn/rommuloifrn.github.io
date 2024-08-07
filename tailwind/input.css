@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer components {
+    .contact-button {
+        @apply px-3 py-2 rounded-lg bg-slate-200 text-darkin flex items-center mr-2 hover:bg-red-500 hover:text-white transition;
+    }
+
     .project {
         @apply mb-8 flex w-full;
     }
