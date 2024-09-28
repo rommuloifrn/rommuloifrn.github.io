@@ -7,6 +7,24 @@
         @apply px-3 py-2 rounded-lg bg-slate-200 text-darkin flex items-center mr-2 hover:bg-red-500 hover:text-white transition;
     }
 
+    .contact-button-2 {
+        @apply px-3 py-2 rounded-lg font-semibold flex items-center mr-2 transition
+        hover:bg-slate-800 hover:text-white;
+    }
+
+    .article-item {
+        @apply font-semibold cursor-pointer block text-red-400 p-1 border-b border-slate-700
+        hover:underline;
+    }
+
+    .emphasis {
+        @apply font-semibold text-white;
+    }
+
+    .dead-article-item {
+        @apply font-semibold block text-slate-500 p-1 border-b border-slate-700;
+    }
+
     .project {
         @apply mb-8 flex w-full;
     }
