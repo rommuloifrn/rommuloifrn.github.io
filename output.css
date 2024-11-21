@@ -600,17 +600,6 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.dead-article-item {
-  display: block;
-  border-bottom-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(51 65 85 / var(--tw-border-opacity));
-  padding: 0.25rem;
-  font-weight: 600;
-  --tw-text-opacity: 1;
-  color: rgb(100 116 139 / var(--tw-text-opacity));
-}
-
 .project {
   margin-bottom: 2rem;
   display: flex;
@@ -865,6 +854,11 @@ video {
   fill: #cbd5e1;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .object-fill {
   -o-object-fit: fill;
      object-fit: fill;
@@ -873,6 +867,16 @@ video {
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
+}
+
+.object-left {
+  -o-object-position: left;
+     object-position: left;
 }
 
 .p-3 {
